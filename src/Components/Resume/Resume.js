@@ -3,9 +3,9 @@ import ComingSoon from '../ComingSoon/ComingSoon';
 
 const Resume = () => {
     return (
-        <div>
+        <>
             <ComingSoon></ComingSoon>
-        </div>
+        </>
     );
 };
 

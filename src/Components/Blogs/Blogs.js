@@ -3,9 +3,9 @@ import ComingSoon from '../ComingSoon/ComingSoon';
 
 const Blogs = () => {
     return (
-        <div>
+        <>
             <ComingSoon></ComingSoon>
-        </div>
+        </>
     );
 };
 

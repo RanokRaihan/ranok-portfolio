@@ -3,9 +3,9 @@ import ComingSoon from '../ComingSoon/ComingSoon';
 
 const Contact = () => {
     return (
-        <div>
+        <>
             <ComingSoon></ComingSoon>
-        </div>
+        </>
     );
 };
 
