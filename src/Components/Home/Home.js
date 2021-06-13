@@ -11,7 +11,7 @@ const Home = () => {
                 <h1 className='main-heading'>I'm  Ranok Raihan</h1>
 
                 <p className="heading-content">Hello! I am a Web Developer with over 1 year of experience. Building easy to use, user friendly web application is truly a passion of mine</p>
-                <a href="https://drive.google.com/uc?export=download&id=17MpZr7kOAGIg0yaXvAJMWbniIkM3Tlvi">
+                <a href="https://drive.google.com/uc?export=download&id=1Y-Z6sksS6KF4F1F3T9mhaWh7i12oqJI8">
                     <button className="btn primary-btn"> <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon> Download Resume</button>
                 </a>
             </div>
