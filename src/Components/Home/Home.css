@@ -1,28 +1,42 @@
 .home-container {
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url("../../images/home-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 .home-content {
-    max-width: 500px;
+    max-width: 600px;
     margin-left: 100px;
+    padding: 15px;
+    min-height: 100%;
+    position: relative;
 }
 .top-tag {
     font-size: 20px;
     margin: 10px 0;
 }
+.hey-there {
+    font-weight: 400;
+}
+.main-heading-top {
+    color: #fff;
+    font-size: 50px;
+}
 .main-heading {
     font-size: 55px;
     color: #00b3ce;
-    margin: 15px 0;
 }
 .heading-content {
     font-size: 18px;
     color: #dedede;
     line-height: 1.5;
     margin: 20px 0;
+    font-weight: 300;
 }
 .primary-btn {
     background: none;
@@ -35,17 +49,60 @@
     background: #00b3ce;
     color: #fff;
 }
+.my-title {
+    color: #fff;
+    display: flex;
+    font-size: 40px;
+}
+.animation-display {
+    margin-left: 10px;
+}
 
-@media only screen and (max-width: 768px) {
-    .home-container {
+/* responsive */
+
+@media only screen and (max-width: 992px) {
+    .home-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
         height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
+        background: rgba(0, 0, 0, 0.4);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .home-container {
+        justify-content: flex-start;
+        padding: 20px 0 50px 0;
+        /* background: rgba(0, 0, 0, 0.4); */
+    }
+
+    .home-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
     }
     .home-content {
         margin-left: 0;
-        margin-top: 60px;
+    }
+    .my-title {
+        font-size: 25px;
+    }
+    .hey-there {
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .main-heading-top {
+        font-size: 35px;
+    }
+    .main-heading {
+        font-size: 55px;
+        line-height: 1.1;
+        margin-bottom: 25px;
     }
 }
