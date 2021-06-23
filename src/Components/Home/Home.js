@@ -12,10 +12,10 @@ const Home = () => {
     React.useEffect(() => {
         const options = {
             strings: [
-                'I am Web Developer',
-                'I am React Developer',
-                'I am Backend Developer',
-                'I am UI Designer'
+                'Web Developer',
+                'React Developer',
+                'Backend Developer',
+                'UI Designer'
             ],
             typeSpeed: 30,
             backSpeed: 10,

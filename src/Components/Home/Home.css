@@ -52,7 +52,7 @@
 .my-title {
     color: #fff;
     display: flex;
-    font-size: 40px;
+    font-size: 30px;
 }
 .animation-display {
     margin-left: 10px;
@@ -103,6 +103,6 @@
     .main-heading {
         font-size: 55px;
         line-height: 1.1;
-        margin-bottom: 25px;
+        margin-bottom: 10px;
     }
 }
